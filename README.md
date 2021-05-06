@@ -5,11 +5,11 @@ Find vaccination centers with available vaccine dose. Create notification for va
 This file is for termux. To run this file you will need -
 1. Termux-APL
 2. Python libraries
-   2.1. requests
-   2.2. date time
-   2.3. json
-   2.4. os
-   2.5. time
+2.1. requests
+2.2. date time
+2.3. json
+2.4. os
+2.5. time
 
 #edits/changes
 You can change following variables to change output
