@@ -35,16 +35,13 @@ while(1):
 		y = len(centers[i]['sessions'])
 		sessions = centers[i]['sessions']
 		while(j<y) :
-			#print(session[j]['available_capacity'])
 			if sessions[j][avl] != 0 and sessions[j][age] == al :
-				#print(centers[i]['name'], '\t', centers[i]['pincode'], '\t', centers[i]['fee_type'])
 				alert = alert + str(sessions[j][avl]) +'doses \t'+ str(centers[i]['name']) +'\t'+ str(centers[i]['pincode']) +'\t' + str(centers[i]['fee_type'])+'\n'
 				vaccine+=1
 			j+=1
 		i+=1
 
 	alert = "Vaccine for "+str(al)+"+ available at "+str(vaccine)+" places.\n\n"+alert
-	#print(alert)
 	if vaccine>0 :
 		print(datetime.today())
 		print(alert)
