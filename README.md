@@ -3,7 +3,7 @@ Find vaccination centers with available vaccine dose. Create notification for va
 
 #requirements 
 This file is for termux. To run this file you will need -
-1. Termux-APL
+1. Termux-API
 2. Python libraries
 2.1. requests
 2.2. date time
@@ -12,6 +12,7 @@ This file is for termux. To run this file you will need -
 2.5. time
 
 #edits/changes
+
 You can change following variables to change output
 1. Change variable 'al' to change beneficiary age eg. 18, 45
 2. Change variable 'district' to change your district. District values are in form of codes. Code 503 is for kota, rajasthan. To find your state code visit https://cdn-api.co-vin.in/api/v2/admin/location/states . To find your district code change state_code to your state and visit https://cdn-api.co-vin.in/api/v2/admin/location/districts/state_code
