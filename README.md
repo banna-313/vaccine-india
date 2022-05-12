@@ -1,5 +1,5 @@
 # vaccine-india
-Find vaccination centers with available vaccine dose. Create notification for vaccine availability in your mobile
+Find vaccination centers with available vaccine dose. Create notification for vaccine availability in your mobile or pc
 
 #requirements 
 This file is for termux. To run this file you will need -
